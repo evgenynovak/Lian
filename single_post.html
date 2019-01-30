@@ -77,19 +77,19 @@
                     </p>   
                   </div>
 
-                  <div class="main__comment comment">
-                    <form class="comment__form" action="#" method="post">
-                        <h2>Leave s comment</h2>
-                        <div class="comment__list">
-                            <input class="comment__input" type="text" name="name" required>
-                            <input class="comment__input" type="text" name="email" required>
-                            <input class="comment__input" type="text" name="website" required>
+                  <div class="main__comment">
+                    <form class="form" action="#" method="post">
+                        <h2 class="form__heading">Leave a comment</h2>
+                        <div class="form__list">
+                          <input class="form__input" type="text" name="name" placeholder="Name" required>
+                          <input class="form__input" type="text" name="email" placeholder="Email" required>
+                          <input class="form__input" type="text" name="website" placeholder="Website" required>
                         </div>
-                        <div class="comment__block">
-                            <textarea class="comment__textarea" name="message" cols="30" rows="10" required></textarea>
+                        <div class="form__block">
+                            <textarea class="form__textarea" name="message" cols="30" rows="10" placeholder="Message" required></textarea>
                         </div>
-                        <div class="comment__block">
-                          <input class="comment__btn" type="submit" value="Send message">
+                        <div class="form__block">
+                          <input class="button form__button" type="submit" value="Send message">
                         </div>
                     </form>
                   </div>
