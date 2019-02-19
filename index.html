@@ -5,29 +5,27 @@
     </head>
     <body>
       <div class="page">
-        <div class="page__containter">
-          <header class="header">
-            <div class="header__logo logo">
-              <img src="img/logo/logo.gif" class="logo__img" alt="logo">
+        <header class="page__containter header">
+          <div class="header__logo logo">
+            <img src="img/logo/logo.gif" class="logo__img" alt="logo">
+          </div>
+          <div class="header__block">
+            <nav class="header__nav nav">
+              <ul class="nav__list">
+                <li class="nav__item"><a href="#" class="nav__link nav__link_active">Home</a>
+                <li class="nav__item"><a href="#" class="nav__link">About</a>
+                <li class="nav__item"><a href="#" class="nav__link">Portfolio</a>
+                <li class="nav__item"><a href="#" class="nav__link">Blog</a>
+                <li class="nav__item"><a href="#" class="nav__link">Contact</a>
+              </ul>
+            </nav>
+            <div class="header__search search">
+              <form class="search__form">
+                <input class="search__input" type="search" name="input-search" placeholder="Поиск">
+              </form>
             </div>
-            <div class="header__block">
-              <nav class="header__nav nav">
-                <ul class="nav__list">
-                  <li class="nav__item"><a href="#" class="nav__link nav__link_active">Home</a>
-                  <li class="nav__item"><a href="#" class="nav__link">About</a>
-                  <li class="nav__item"><a href="#" class="nav__link">Portfolio</a>
-                  <li class="nav__item"><a href="#" class="nav__link">Blog</a>
-                  <li class="nav__item"><a href="#" class="nav__link">Contact</a>
-                </ul>
-                </nav>
-              <div class="header__search search">
-                <form class="search__form">
-                    <input class="search__input" type="search" name="input-search" placeholder="Поиск">
-                </form>
-              </div>
-            </div>  
-          </header>
-        </div>  
+          </div>  
+        </header>  
 
         <section class="slider" id="slider">
             <div class="slider__indicators">
@@ -61,10 +59,7 @@
               <li class="menu__item"> <a href="#" class="menu__link">Branding</a></li>   
             </ul>
           </section>
-        </div>
-
-        <div class="page__containter">
-            <main class="main">
+          <main class="main">
              <div class="main__portfolio portfolio">
               <ul class="portfolio__list">
                 <li class="portfolio__item">
@@ -122,8 +117,8 @@
              <div class="main__footer">
                 <button class="button main__button">Load more</button>
              </div>
-            </main>   
-          </div>
+          </main>   
+        </div>
 
           <footer class="footer">
             <div class="footer__logo logo">
