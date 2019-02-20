@@ -36,30 +36,23 @@
             </section> 
 
             <div class="page__containter">
-              <section class="page__main">  
-                <main class="main">
-                  <div class="main__block">
-                    <article class="main__post post"> 
-                      <div class="post__tag">
-                          <button class="button post__button">wordpress</button>
-                      </div>
-                      <div class="post__header">
-                        <h2 class="post_heading heading heading_2">I am a Blog Post Title</h2>
-                        <p class="post__autor text"><span class="icon post__icon post__icon_man"></span>by Jenn Pereira</p>
-                      </div>
-                      <div class="post__content">
-                          <p class="post__text text">
-                            Phasellus et nisl tellus. Etiam facilisis eu nisi scelerisque faucibus. Proin semper suscipit magna, 
-                            nec imperdiet lacus semper vitae. Sed hendrerit enim non justo posuere placerat eget purus mauris. Etiam 
-                            facilisis eu nisi scelerisque faucibus...
-                          </p>
-                      </div>
+              <div class="blog">
+                <section class="blog__main">  
+                <main class="blog__posts">
+                    <article class="post"> 
+                      <a href="#" class="post__tag tag">wordpress</a>
+                      <h2 class="post__heading">I am a Blog Post Title</h2>
+                      <span class="post__autor">by Jenn Pereira</span>
+                      <p class="post__text text">
+                        Phasellus et nisl tellus. Etiam facilisis eu nisi scelerisque faucibus. Proin semper suscipit magna, 
+                        nec imperdiet lacus semper vitae. Sed hendrerit enim non justo posuere placerat eget purus mauris. Etiam 
+                        facilisis eu nisi scelerisque faucibus...
+                      </p>
                       <div class="post__footer">
-                        <div class="post__date">
-                          <p class="post__date-text text"><span class="icon post__icon post__icon_date"></span>on July 19,2016</p>
-                        </div>
-                        <div class="post__button-share-like">
-                          <span class="icon post__icon post__icon_share"></span><span class="icon post__icon post__icon_like"></span>
+                        <span class="post__date">on July 19,2016</span>
+                        <div class="post__element-block">
+                          <span class="icon post__icon post__icon_share"></span>
+                          <span class="icon post__icon post__icon_like"></span>
                         </div>
                       </div>
                     </article>
@@ -166,14 +159,13 @@
                           </div>
                         </div>
                     </article>
-                  </div> 
-                  <div class="main__footer">
-                      <button class="button main__button">Load more</button>
-                    </div>
                 </main>
-              </section>
+                <div class="blog__footer">
+                  <button class="button main__button">Load more</button>
+                </div>
+                </section>
 
-              <section class="page__sidebar">
+                <section class="blog__sidebar">
                 <aside class="sidebar-search">
                   <form class="sidebar-search__form" action="" method="get">
                       <input class="sidebar-search__input"name="s" placeholder="Search" type="search">
@@ -299,7 +291,9 @@
                       </div>
                     </div>
                 </aside>
-              </section>
+                </section>
+              </div>
+            </div>
 
             <footer class="footer">
             <div class="footer__logo logo">
