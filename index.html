@@ -29,24 +29,21 @@
           </header> 
         </div>   
 
-        <section class="slider" id="slider">
-            <div class="slider__indicators">
-              <button class="button slider__button slider__button_indicator slider__button_active" data-slide-to="0"></button>
-              <button class="button slider__button slider__button_indicator" data-slide-to="1"></button>
-              <button class="button slider__button slider__button_indicator" data-slide-to="2"></button>
+        <section class="slider">
+          <input class="slider__input" type="radio" id="btn-1" name="toggle" checked>
+          <input class="slider__input" type="radio" id="btn-2" name="toggle">
+          <input class="slider__input" type="radio" id="btn-3" name="toggle">
+          <div class="slider__controls">
+            <label class="slider__label" for="btn-1"></label>
+            <label class="slider__label" for="btn-2"></label>
+            <label class="slider__label" for="btn-3"></label>
+          </div>
+          <div class="slider__inner">
+            <div class="slider__slides">
+              <img class="slider__img" src="img/slider/slide_001.jpg" alt="Lian Creative Agency">
+              <img class="slider__img" src="img/slider/slide_002.jpg" alt="Design and Branding">
             </div>
-            <div class="slider__items">
-              <div class="slider__item slider__item_active">
-                <img src="img/slider/slide_001.jpg" alt="Lian Creative Agency">
-                <img src="img/slider/slide_002.jpg" alt="Design and Branding">
-              </div>
-              <div class="slider__item">
-              </div>
-              <div class="slider__item">
-              </div>
-            </div>
-            <button class="button slider__button slider__button_control_prev"></button>
-            <button class="button slider__button slider__button_control_next"></button>
+          </div> 
         </section>
 
         <div class="page__containter">
