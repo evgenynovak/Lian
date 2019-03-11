@@ -11,5 +11,14 @@
     "url": "git@evgenynovak.github.com:evgenynovak/Lian.git"
   },
   "author": "enovak",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "gulp4": "^4.0.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.11.0"
+  }
 }
