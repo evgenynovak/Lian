@@ -37,25 +37,19 @@ body {
 
 }
 
-.header__block {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  width: 70%;
-}
-
 .header__nav{
-  padding-right: 4px;
+ 
 }
 
 .nav {
-
+  padding-right: 4px;
 }
 
 .nav__list {
   margin: 0;
   padding: 0;
   list-style: none;
+  
 }
 
 .nav__item {
@@ -81,21 +75,6 @@ body {
   background-position: 7px 50%;
 }
 
-.header__search {
-
-}
-
-.search {
-
-}
-
-.search__form {
-
-}
-
-.search__input {
-
-}
 
 .slider {
     position: relative;
