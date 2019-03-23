@@ -12,27 +12,27 @@ gulp.task('server', function() {
     
     browserSync.init({
         server: {
-            baseDir: "./"
+            baseDir: "./dist"
         }
     });
-    browserSync.watch('./**/*.*').on('change', browserSync.reload);
+    browserSync.watch('./dist/**/*.*').on('change', browserSync.reload);
 });
 
 
 gulp.task('sass', function () {
-    return gulp.src('./style/sass/**/*.scss')
+    return gulp.src('./src/style/sass/main.sass')
       .pipe(sass().on('error', sass.logError))
       .pipe(autoprefixer())
-      .pipe(gulp.dest('./style/css'));
+      .pipe(gulp.dest('./dist/css'));
   });
 
 
 gulp.task('sass:watch', function () {
-    gulp.watch('./style/sass/**/*.scss', gulp.series('sass'));
+    gulp.watch('./src/style/sass/**/*.sass', gulp.series('sass'));
   });
 
 
-gulp.task('start', gulp.series(gulp.parallel( 'server' , 'sass:watch' )));
+gulp.task('default', gulp.series(gulp.parallel( 'server' , 'sass:watch' )));
 
 
 
