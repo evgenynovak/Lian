@@ -1,3 +1,13 @@
+html
+  box-sizing: border-box
+
+*, *:before, *:after 
+  box-sizing: inherit
+
+*
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
 body 
   margin: 0
   padding: 0
@@ -7,7 +17,7 @@ body
   width: 100%
   max-width: 1600px
 
-.page__containter 
-  margin: 0 auto
-  width: 100%
-  max-width: 1140px
+  &__containter 
+    margin: 0 auto
+    width: 100%
+    max-width: 1140px
