@@ -13,7 +13,8 @@
   "author": "enovak",
   "license": "ISC",
   "dependencies": {
-    "gulp4": "^4.0.2"
+    "gulp4": "^4.0.2",
+    "owl.carousel2": "^2.2.1"
   },
   "devDependencies": {
     "browser-sync": "^2.26.3",
