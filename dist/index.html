@@ -1,9 +1,10 @@
 <!doctype html>
 <html>
     <head>
-       <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
        <link href="./css/main.css" rel="stylesheet">
+       <link href="./js/scripts.js" rel="stylesheet">
        <title>Верстка. Шаблон Lian.</title>
     </head>
     <body>
@@ -23,31 +24,27 @@
                 <li class="nav__item"><a href="#" class="nav__link"><i class="fas fa-search"></i></a></li>
               </ul>
             </nav>
-          </div>   
+          </div>
         </header>
-        
 
-        <section class="slider">
-          <input class="slider__input" type="radio" id="btn-1" name="toggle" checked>
-          <input class="slider__input" type="radio" id="btn-2" name="toggle">
-          <input class="slider__input" type="radio" id="btn-3" name="toggle">
-          <div class="slider__navigation">
-            <label class="slider__label-navigation" for="btn-1"></label>
-            <label class="slider__label-navigation" for="btn-2"></label>
-            <label class="slider__label-navigation" for="btn-3"></label>
-          </div>
-          <div class="slider__controls">
-            <label class="slider__label-controls" for="btn-1"></label>
-            <label class="slider__label-controls" for="btn-2"></label>
-            <label class="slider__label-controls" for="btn-3"></label>
-          </div>
-          <div class="slider__inner">
-            <div class="slider__slides">
-              <img class="slider__img" src="img/slider/slide_001.jpg" alt="Lian Creative Agency">
-              <img class="slider__img" src="img/slider/slide_002.jpg" alt="Design and Branding">
+        
+          <section class="page__slider slider">
+            <div class="owl-carousel">
+              <div class="slider__item" style="background-image: url(./img/slider/slide_001.jpg)">
+                <div class="slider__content">
+                  <p class="slider__title">lian creative agency</p>
+                  <p class="slider__text">minimal freelance portfolio</p>
+                </div>
+              </div>
+              <div class="slider__item" style="background-image: url(./img/slider/slide_002.jpg)">
+                <div class="slider__content">
+                  <p class="slider__title">design & branding</p>
+                  <p class="slider__text">we deliver quality results</p>
+                </div>
+              </div>
             </div>
-          </div> 
-        </section>
+          </section>  
+        
 
         <div class="page__containter">
           <section class="menu">
@@ -153,6 +150,27 @@
             </div>
           </footer>
 
-      </div>      
+      </div>
+
+
+      <script>
+        $('.owl-carousel').owlCarousel({
+          loop:true,
+          margin:10,
+          nav:true,
+          responsive:{
+            0:{
+              items:1
+            },
+            600:{
+              items:3
+            },
+            1000:{
+              items:5
+            }
+        }
+       })
+      </script>
+
     </body>
 </html>

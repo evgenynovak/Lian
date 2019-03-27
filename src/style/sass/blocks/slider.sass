@@ -1,51 +1,43 @@
-.slider 
-  display: block
-  position: relative
-  //background-color: green /*для теста*/
-  
-  &__input[type='radio']  
-    display: none
-  
-  &__navigation 
+$font-default: Roboto, sans-serif
+$title-color: #ffffff
+$title-bg-color: #000000
+$text-color: #000000
+.slider
+  &__item
+    position: relative
+    padding-top: 650px
+  &__content
     display: flex
-    justify-content: space-between
-    position: relative
-    padding: 0px 112px
-    left: 0px 
-    top: 400px
-    z-index: 1
-
-  &__label-navigation 
-    display: none
-
-  &__controls  
-    position: relative
-    left: 0px 
-    top: 580px
-    z-index: 1
-    margin-bottom: 10px
+    justify-content: center
+    align-content: space-between
+    align-items: center
+    flex-direction: column
+    position: absolute
     text-align: center
-  
-  &__label-controls 
-    display: inline-block
-    margin: 0 5px
-    width: 5px
-    height: 5px
-    border: 4px solid white
-    border-radius: 50%
-    background-color: #ffffff
-    cursor: pointer
-    transition: background-color 0.2s
-  
-  &__inner 
-    overflow: hidden
-  
-  &__img 
-    float: left
-    width: 1600px
-    height: 650px
-  
-  &__slides 
-    width: 300%
-    transition: transform 0.8s ease
- 
+    padding-top: 0
+    top: 263px
+    left: 448px
+  &__title
+    margin: 0
+    margin-bottom: 32px
+    padding-left: 44px
+    padding-right: 38px
+    padding-top: 4px
+    padding-bottom: 4px
+    font-family: $font-default
+    font-weight: 300
+    font-size: 48px
+    letter-spacing: 4.7px
+    line-height: 48px
+    color: $title-color
+    text-transform: uppercase
+    background-color: $title-bg-color
+  &__text
+    margin: 0
+    padding-left: 11px
+    font-family: $font-default
+    font-weight: 300
+    font-size: 18px
+    letter-spacing: 7.2px
+    color: $text-color
+    text-transform: uppercase
