@@ -4,8 +4,10 @@
     margin: 0
     padding: 0
     list-style: none
-  &__link 
+  &__item
+    position: relative
     padding-left: 46px
+  &__link 
     font-family: 'Roboto', sans-serif
     font-size: 14px
     font-weight: bold
@@ -15,8 +17,7 @@
     text-decoration: none
     &:hover
       color: black
-  &__link_active
-    position: relative 
+  &__link_active 
     color: black
     &:before
       position: absolute
