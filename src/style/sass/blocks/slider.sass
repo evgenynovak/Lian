@@ -2,23 +2,19 @@ $title-color: #ffffff
 $title-bg-color: #000000
 $text-color: #000000
 .slider
-  max-width: 1600px
   &__item
-    position: relative
     background-repeat: no-repeat
-    padding-top: 650px
-    padding-left: 1600px
+    background-size: cover
+    background-position: center
   &__content
     display: flex
     justify-content: center
     align-content: space-between
     align-items: center
     flex-direction: column
-    position: absolute
     text-align: center
-    padding-top: 0
-    top: 263px
-    left: 448px
+    padding-top: 260px
+    padding-bottom: 280px
   &__title
     margin: 0
     margin-bottom: 32px
@@ -46,10 +42,11 @@ $text-color: #000000
 .owl-nav
   display: flex
   justify-content: space-between
-  width: 1375px
   position: absolute
-  top: 304px
+  top: 50%
+  transform: translate(0,-50%)
   left: 111px
+  right: 111px
 .owl-prev 
   position: relative
   border-radius: 100%
@@ -92,7 +89,7 @@ $text-color: #000000
   position: absolute
   width: 100%
   left: 0px
-  top: 580px
+  bottom: 46px
   margin-bottom: 10px
   text-align: center
   .owl-dot
