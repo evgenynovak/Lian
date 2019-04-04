@@ -1,0 +1,43 @@
+.menu
+  padding-top: 33px
+  padding-bottom: 33px
+  &__list
+    display: flex
+    justify-content: center
+    margin: 0
+    padding-top: 23px
+    padding-bottom: 23px
+    list-style: none
+    border-top: 1px solid #e1e1e1
+    border-bottom: 1px solid #e1e1e1
+  &__item
+    position: relative
+    padding-left: 24px
+    padding-right: 24px
+    &:before
+      content: ''
+      color: #e1e1e1
+      position: absolute
+      top: -1px
+      left: 0
+      border-left: 1px solid
+      height: 30px
+      width: 30px
+      transform: rotate(20deg)
+    &:first-child::before
+      content: ''
+      border: none
+  &__link
+    font-family: $font-default
+    font-size: 14px
+    font-weight: bold
+    text-transform: uppercase
+    color: #777777
+    background-color: #FFFFFF
+    text-decoration: none
+    &:hover
+      color: black
+    &_active
+      color: black
+    
+     
