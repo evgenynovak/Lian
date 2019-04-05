@@ -461,7 +461,8 @@ body {
 
 .portfolio__item {
   position: relative;
-  width: 360px; }
+  width: 360px;
+  margin-bottom: 30px; }
 
 .portfolio__link:hover .portfolio__cover {
   display: block; }
@@ -472,7 +473,6 @@ body {
 .portfolio__cover {
   display: none;
   position: absolute;
-  z-index: 1;
   top: 0;
   bottom: 0;
   left: 0;

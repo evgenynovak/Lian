@@ -31,6 +31,7 @@ gulp.task('js', function () {
     return gulp.src([
         './node_modules/jquery/dist/jquery.js',
         './node_modules/owl.carousel2/dist/owl.carousel.js',
+        './node_modules/masonry-layout/dist/masonry.pkgd.min.js',
         './src/js/**/*.js'
     ])
     .pipe(concat('scripts.js'))

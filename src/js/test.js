@@ -16,3 +16,11 @@ $('.owl-carousel').owlCarousel({
       }
   }
 })
+
+$('.portfolio__list').masonry({
+  itemSelector: '.portfolio__item',
+  columnWidth: 360,
+  gutter: 30,
+  isResizable: true,
+  isAnimated: true
+});
