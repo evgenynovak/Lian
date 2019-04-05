@@ -14,6 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "gulp4": "^4.0.2",
+    "masonry-layout": "^4.2.2",
     "owl.carousel2": "^2.2.1"
   },
   "devDependencies": {
