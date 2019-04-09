@@ -564,13 +564,13 @@ body {
     margin: 0;
     padding-top: 23px;
     padding-bottom: 23px;
+    padding-left: 0px;
+    padding-right: 0px;
     list-style: none; }
   .social__item {
     position: relative;
     padding-right: 28px;
     padding-left: 28px; }
-    .social__item:first-child {
-      padding-left: 0px; }
   .social__link {
     font-family: Roboto, sans-serif;
     font-size: 14px;
