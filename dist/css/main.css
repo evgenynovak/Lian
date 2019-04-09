@@ -464,11 +464,15 @@ body {
   width: 360px;
   margin-bottom: 30px; }
 
-.portfolio__link:hover .portfolio__cover {
+.portfolio__link {
   display: block; }
+  .portfolio__link:hover .portfolio__cover {
+    display: block; }
 
 .portfolio__img {
-  width: 360px; }
+  display: block;
+  width: 360px;
+  height: auto; }
 
 .portfolio__cover {
   display: none;
