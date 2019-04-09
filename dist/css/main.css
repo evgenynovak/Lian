@@ -504,3 +504,24 @@ body {
     border-top: 2px solid;
     height: 40px;
     width: 40px; }
+
+.portfolio__footer {
+  display: flex;
+  justify-content: center; }
+
+.portfolio__button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #959595;
+  color: #ffffff;
+  padding: 8px 24px;
+  border-radius: 2px;
+  letter-spacing: 0.6px; }

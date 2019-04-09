@@ -44,8 +44,17 @@
       border-top: 2px solid
       height: 40px
       width: 40px
-
-
-    
-  
-  
+  &__footer
+      display: flex
+      justify-content: center
+  &__button
+    @include button-reset
+    font-family: $font-default
+    font-size: 13px
+    font-weight: bold
+    text-transform: uppercase
+    background-color: #959595
+    color: #ffffff
+    padding: 8px 24px
+    border-radius: 2px
+    letter-spacing: 0.6px
