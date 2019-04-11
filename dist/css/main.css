@@ -243,7 +243,15 @@ body {
     width: 100%;
     max-width: 1140px; }
   .page__slider {
-    margin: 0 auto; }
+    margin-top: 0;
+    margin-bottom: 33px;
+    margin-left: auto;
+    margin-right: auto; }
+  .page__banner {
+    margin-top: 0;
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto; }
 
 .header {
   display: flex;
@@ -411,8 +419,47 @@ body {
   .owl-dots .active {
     border: 4px solid black; }
 
+.banner__item {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.banner__content {
+  margin: 0 auto;
+  max-width: 1140px;
+  display: flex;
+  align-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-top: 115px;
+  padding-bottom: 118px; }
+
+.banner__title {
+  margin: 0;
+  margin-bottom: 40px;
+  padding-left: 36px;
+  padding-right: 31px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 48px;
+  letter-spacing: 4.7px;
+  line-height: 48px;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #000000; }
+
+.banner__text {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 7.2px;
+  color: #000000;
+  text-transform: uppercase; }
+
 .menu {
-  padding-top: 33px;
   padding-bottom: 33px; }
   .menu__list {
     display: flex;
