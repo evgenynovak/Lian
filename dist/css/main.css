@@ -288,7 +288,7 @@ body {
     color: black; }
 
 .nav__link_active {
-  color: black; }
+  color: #000000; }
   .nav__link_active:before {
     position: absolute;
     content: "";
