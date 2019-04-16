@@ -233,8 +233,7 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
-  background-color: #fafafa; }
+  padding: 0; }
 
 .page {
   margin: 0 auto;
@@ -578,9 +577,13 @@ body {
   letter-spacing: 0.6px; }
 
 .post {
+  display: block;
   width: 360px;
   background-color: #ffffff; }
   .post__img {
+    display: block;
+    width: 360px; }
+  .post__video {
     width: 360px; }
   .post__block {
     display: flex;
@@ -591,12 +594,13 @@ body {
     padding-bottom: 40px;
     padding-top: 0px; }
   .post__tag {
-    margin-top: 38px; }
+    margin-top: 36px; }
   .post__title {
-    margin-top: 28px;
+    margin-top: 26px;
     font-family: Roboto, sans-serif;
     color: #333333;
-    font-size: 20px; }
+    font-size: 20px;
+    font-weight: 500; }
   .post__autor {
     font-family: Roboto, sans-serif;
     font-size: 13px;
@@ -604,6 +608,7 @@ body {
     font-weight: bold; }
     .post__autor:before {
       display: inline-block;
+      padding-right: 5px;
       font-style: normal;
       font-variant: normal;
       text-rendering: auto;
@@ -611,7 +616,8 @@ body {
       font-weight: 700;
       content: "\f007"; }
   .post__text {
-    margin-top: 32px;
+    margin-top: 26px;
+    margin-bottom: 0px;
     font-family: Roboto, sans-serif;
     font-size: 14px;
     color: #777777;
@@ -621,13 +627,14 @@ body {
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 45px; }
+    margin-top: 36px; }
   .post__date {
     font-family: Roboto, sans-serif;
     font-size: 13px;
     color: #9a9a9a; }
     .post__date:before {
       display: inline-block;
+      padding-right: 5px;
       font-style: normal;
       font-variant: normal;
       text-rendering: auto;
@@ -638,6 +645,25 @@ body {
     font-size: 13px;
     color: #cccccc;
     padding-left: 24px; }
+  .post__img-link {
+    display: block;
+    position: relative; }
+    .post__img-link .post__block {
+      display: none; }
+    .post__img-link:hover .post__block {
+      display: flex;
+      position: absolute;
+      top: 0px;
+      bottom: 0px;
+      left: 0px;
+      right: 0px;
+      background-color: rgba(0, 0, 0, 0.8); }
+    .post__img-link:hover .post__title {
+      color: #ffffff; }
+    .post__img-link:hover .post__text {
+      color: #e5e5e5; }
+    .post__img-link:hover .post__title {
+      color: #ffffff; }
 
 .tag {
   padding: 8px 16px;

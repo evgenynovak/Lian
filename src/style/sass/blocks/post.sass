@@ -1,7 +1,11 @@
 .post
+  display: block
   width: 360px
   background-color: #ffffff
   &__img
+    display: block
+    width: 360px
+  &__video
     width: 360px
   &__block
     display: flex
@@ -12,12 +16,13 @@
     padding-bottom: 40px
     padding-top: 0px
   &__tag
-    margin-top: 38px
+    margin-top: 36px
   &__title
-    margin-top: 28px
+    margin-top: 26px
     font-family: $font-default
     color: $heading-color
     font-size: 20px
+    font-weight: 500
   &__autor
     font-family: $font-default
     font-size: 13px
@@ -25,6 +30,7 @@
     font-weight: bold
     &:before
       display: inline-block
+      padding-right: 5px
       font-style: normal
       font-variant: normal
       text-rendering: auto
@@ -32,7 +38,8 @@
       font-weight: 700
       content: "\f007"
   &__text
-    margin-top: 32px
+    margin-top: 26px
+    margin-bottom: 0px
     font-family: $font-default
     font-size: 14px
     color: $text-color
@@ -42,13 +49,14 @@
     width: 100%
     flex-direction: row
     justify-content: space-between
-    margin-top: 45px
+    margin-top: 36px
   &__date
     font-family: $font-default
     font-size: 13px
     color: #9a9a9a
     &:before
       display: inline-block
+      padding-right: 5px
       font-style: normal
       font-variant: normal
       text-rendering: auto
@@ -59,4 +67,25 @@
     font-size: 13px
     color: #cccccc
     padding-left: 24px
+  &__img-link
+    display: block
+    position: relative
+    & .post__block
+      display: none
+    &:hover
+      & .post__block
+       display: flex
+       position: absolute
+       top: 0px
+       bottom: 0px
+       left: 0px
+       right: 0px
+       background-color: rgba(0, 0, 0, 0.8)
+      & .post__title
+       color: #ffffff
+      & .post__text
+       color: #e5e5e5
+      & .post__title
+       color: #ffffff
+
 
