@@ -13672,3 +13672,11 @@ $('.portfolio__list').masonry({
   isResizable: true,
   isAnimated: true
 });
+
+$('.blog__posts').masonry({
+  itemSelector: '.post',
+  columnWidth: 360,
+  gutter: 30,
+  isResizable: true,
+  isAnimated: true
+});
