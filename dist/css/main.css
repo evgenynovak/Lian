@@ -576,10 +576,25 @@ body {
   justify-content: center;
   padding-bottom: 70px; }
 
+.blog {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .blog__main {
+    width: 760px; }
+  .blog__sidebar {
+    width: 360px; }
+  .blog__footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 100px; }
+
 .post {
   display: block;
   width: 360px;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  margin-bottom: 30px; }
   .post__img {
     display: block;
     width: 360px; }
