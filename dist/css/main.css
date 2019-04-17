@@ -629,6 +629,38 @@ body {
       font-size: 16px;
       color: #ffffff; }
 
+.sidebar-block__header {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  padding-top: 12px;
+  padding-bottom: 8px;
+  background-color: #ebebeb; }
+  .sidebar-block__header:before {
+    content: '';
+    background-color: #ebebeb;
+    color: #ebebeb;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%) rotate(45deg);
+            transform: translate(-50%, -50%) rotate(45deg);
+    border: 0px solid;
+    height: 8px;
+    width: 8px; }
+
+.sidebar-block__title {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 7px;
+  text-transform: uppercase; }
+
+.sidebar-block__content {
+  padding: 25px;
+  background-color: #FFFFFF; }
+
 .post {
   display: block;
   width: 360px;

@@ -1,0 +1,31 @@
+.sidebar-block
+  &__header
+    display: flex
+    position: relative
+    justify-content: center
+    padding-top: 12px
+    padding-bottom: 8px
+    background-color: $first-color
+    &:before
+      content: ''
+      background-color: $first-color 
+      color: $first-color
+      position: absolute
+      top: 100%
+      left: 50%
+      transform: translate( -50% , -50% ) rotate(45deg)
+      border: 0px solid
+      height: 8px
+      width: 8px
+  &__title
+    margin: 0
+    font-family: $font-default
+    font-size: 18px
+    font-weight: 300
+    letter-spacing: 7px
+    text-transform: uppercase
+  &__content
+    padding: 25px
+    background-color: #FFFFFF
+
+
