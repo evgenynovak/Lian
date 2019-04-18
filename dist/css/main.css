@@ -583,6 +583,10 @@ body {
     width: 760px; }
   .blog__sidebar {
     width: 360px; }
+  .blog__sidebar-search {
+    padding-bottom: 25px; }
+  .blog__sidebar-block {
+    padding-bottom: 25px; }
   .blog__footer {
     display: flex;
     justify-content: center;
