@@ -1,0 +1,38 @@
+.mini-post
+  display: flex
+  flex-direction: column
+  justify-content: center
+  padding-top: 25px
+  padding-bottom: 5px
+  padding-left: 25px
+  padding-right: 25px
+  &__item
+    display: flex
+    padding-bottom: 25px
+    flex-direction: row
+    justify-content: space-between
+    text-decoration: none
+    &:hover .mini-post__title
+      text-decoration: underline
+  &__block-img
+    width: 90px
+  &__img
+    display: block
+    width: 90px
+  &__block-info
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    padding-left: 18px
+  &__title
+    font-family: $font-default
+    font-size: 16px
+    font-weight: 500
+    color: $heading-color
+  &__date
+    font-family: $font-default
+    font-size: 13px
+    font-weight: 300
+    color: $text-color
+
+
