@@ -786,17 +786,42 @@ body {
     font-weight: 300;
     color: #777777; }
 
+.tags {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+  padding-top: 30px;
+  padding-right: 15px;
+  padding-bottom: 25px;
+  padding-left: 15px; }
+  .tags__item {
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px; }
+
 .tag {
   padding: 8px 16px;
   font-family: Roboto, sans-serif;
   font-size: 13px;
-  font-weight: bold;
-  text-transform: uppercase;
-  background-color: black;
-  color: #ffffff;
+  color: #9c9c9c;
+  border: 1px solid #eeeeee;
   border-radius: 3px;
   letter-spacing: 0;
-  text-decoration: none; }
+  text-decoration: none;
+  background-color: #ffffff; }
+  .tag_active {
+    background-color: black;
+    color: #ffffff;
+    border: 1px solid black; }
+  .tag_post {
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: black;
+    color: #ffffff;
+    border: 1px solid black; }
 
 .footer {
   display: flex;
