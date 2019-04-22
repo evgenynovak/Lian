@@ -840,6 +840,58 @@ body {
     display: block;
     width: 100px; }
 
+.single-post {
+  max-width: 946px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .single-post__header-title {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: #333333;
+    letter-spacing: 4.5px;
+    text-transform: uppercase; }
+  .single-post__header-list {
+    padding-top: 20px;
+    padding-bottom: 25px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center; }
+  .single-post__header-item {
+    padding-left: 31px;
+    padding-right: 31px; }
+  .single-post__header-text {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    color: #777777;
+    font-weight: 700;
+    letter-spacing: 0.35px; }
+    .single-post__header-text_likes:before {
+      padding-right: 8px;
+      display: inline-block;
+      font-style: normal;
+      font-variant: normal;
+      text-rendering: auto;
+      font-family: "Font Awesome 5 Free";
+      content: "\f004";
+      color: #777777;
+      font-weight: 500; }
+  .single-post__text {
+    margin: 0;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    color: #777777;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.35px; }
+
 .footer {
   display: flex;
   flex-direction: column;
