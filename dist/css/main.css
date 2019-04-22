@@ -894,6 +894,7 @@ body {
   .single-post__heading {
     margin: 0;
     padding-left: 65px;
+    padding-top: 25px;
     align-self: flex-start;
     font-family: Roboto, sans-serif;
     font-size: 16px;
@@ -901,9 +902,13 @@ body {
     font-weight: 700;
     letter-spacing: 0.35px;
     text-transform: uppercase; }
+  .single-post__blockquote {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 15px; }
 
 .blockquote {
-  margin: 0;
   padding-left: 35px;
   padding-right: 30px;
   padding-top: 20px;
