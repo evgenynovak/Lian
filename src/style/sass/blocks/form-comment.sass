@@ -1,0 +1,36 @@
+.form-comment
+  &__list
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    padding-bottom: 11px
+  @mixin input-standart
+    padding-left: 12px 
+    border: none
+    outline: none
+    background-color: #fafafa
+    border-radius: 3px
+    border-left: 1px solid #e1e1e1
+    border-right: 1px solid #e1e1e1
+    border-top: 1px solid #e1e1e1
+    border-bottom: 1px solid #e1e1e1
+    font-family: $font-default
+    font-style: italic
+    font-size: 14px
+    color: #c4c4c4
+    &::placeholder
+      color: #c4c4c4
+    &:focus
+      border-left: 3px solid #c8c8c8
+      padding-left: 10px
+  &__input
+    width: 250px
+    height: 40px
+    @include input-standart
+  &__textarea
+    width: 100%
+    padding-top: 12px 
+    @include input-standart
+  &__block
+    padding-top: 11px
+    padding-bottom: 11px

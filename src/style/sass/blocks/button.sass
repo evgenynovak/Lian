@@ -1,20 +1,22 @@
-@mixin button-reset
-   padding: 0
-   border: none
-   font: inherit
-   color: inherit
-   background-color: transparent
-   cursor: pointer
+
 .button
+  border: none
+  font: inherit
+  color: inherit
+  background-color: transparent
+  cursor: pointer
+  font-family: $font-default
+  font-size: 13px
+  font-weight: bold
+  text-transform: uppercase
+  background-color: #000000
+  color: #ffffff
+  padding: 8px 24px
+  border-radius: 2px
+  letter-spacing: 0.6px
   &_load
-    @include button-reset
-    font-family: $font-default
-    font-size: 13px
-    font-weight: bold
-    text-transform: uppercase
-    background-color: $button-color
+    background-color: #959595
     color: #ffffff
-    padding: 8px 24px
-    border-radius: 2px
-    letter-spacing: 0.6px
+    
+ 
 
