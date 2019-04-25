@@ -612,16 +612,17 @@ body {
     padding-left: 45px;
     padding-right: 35px;
     padding-bottom: 40px;
-    padding-top: 0px; }
+    padding-top: 30px; }
   .post__tag {
-    margin-top: 36px; }
+    margin-top: 0;
+    margin-bottom: 30px; }
   .post__title-link {
     text-decoration: none; }
     .post__title-link:hover {
       color: #333333;
       text-decoration: underline; }
   .post__title {
-    margin-top: 26px;
+    margin-top: 0px;
     font-family: Roboto, sans-serif;
     color: #333333;
     font-size: 20px;
