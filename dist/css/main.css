@@ -710,6 +710,7 @@ body {
       color: #b7b7b7; }
   .search__button {
     position: absolute;
+    padding: 1px 6px;
     top: 12px;
     right: 10px;
     width: 34px;
