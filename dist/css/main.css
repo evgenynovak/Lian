@@ -665,6 +665,9 @@ body {
     font-size: 13px;
     color: #cccccc;
     padding-left: 24px; }
+    .post__icon:hover {
+      color: #000000;
+      cursor: pointer; }
   .post__img-link {
     display: block;
     position: relative; }
