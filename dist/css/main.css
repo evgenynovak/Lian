@@ -615,6 +615,11 @@ body {
     padding-top: 0px; }
   .post__tag {
     margin-top: 36px; }
+  .post__title-link {
+    text-decoration: none; }
+    .post__title-link:hover {
+      color: #333333;
+      text-decoration: underline; }
   .post__title {
     margin-top: 26px;
     font-family: Roboto, sans-serif;
