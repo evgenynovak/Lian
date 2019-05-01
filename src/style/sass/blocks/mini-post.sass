@@ -3,7 +3,7 @@
   flex-direction: column
   justify-content: center
   padding-top: 25px
-  padding-bottom: 5px
+  padding-bottom: 25px
   padding-left: 25px
   padding-right: 25px
   &__item
@@ -12,6 +12,8 @@
     flex-direction: row
     justify-content: space-between
     text-decoration: none
+    &:last-child
+      padding-bottom: 0px
     &:hover .mini-post__title
       text-decoration: underline
   &__block-img

@@ -775,7 +775,7 @@ body {
   flex-direction: column;
   justify-content: center;
   padding-top: 25px;
-  padding-bottom: 5px;
+  padding-bottom: 25px;
   padding-left: 25px;
   padding-right: 25px; }
   .mini-post__item {
@@ -784,6 +784,8 @@ body {
     flex-direction: row;
     justify-content: space-between;
     text-decoration: none; }
+    .mini-post__item:last-child {
+      padding-bottom: 0px; }
     .mini-post__item:hover .mini-post__title {
       text-decoration: underline; }
   .mini-post__block-img {
