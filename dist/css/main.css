@@ -602,7 +602,9 @@ body {
   margin-bottom: 30px; }
   .post__img {
     display: block;
-    width: 360px; }
+    width: 360px;
+    -o-object-fit: cover;
+       object-fit: cover; }
   .post__video {
     width: 360px; }
   .post__block {
