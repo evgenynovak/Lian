@@ -998,6 +998,7 @@ body {
 .form-comment__textarea {
   width: 100%;
   padding-top: 12px;
+  resize: vertical;
   padding-left: 12px;
   border: none;
   outline: none;
