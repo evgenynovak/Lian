@@ -603,6 +603,7 @@ body {
   .post__img {
     display: block;
     width: 360px;
+    height: auto;
     -o-object-fit: cover;
        object-fit: cover; }
   .post__video {
