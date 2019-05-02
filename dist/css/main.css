@@ -847,17 +847,16 @@ body {
     border: 1px solid black; }
 
 .insta-list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding-top: 32px;
-  padding-bottom: 20px;
-  padding-left: 22px; }
-  .insta-list__item {
-    padding: 3px; }
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 5px;
+  padding: 25px 25px; }
   .insta-list__img {
     display: block;
-    width: 100px; }
+    width: 100px;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover; }
 
 .single-post {
   max-width: 946px;
