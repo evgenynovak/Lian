@@ -1124,13 +1124,14 @@ body {
   margin-bottom: 40px; }
 
 .about__content-text {
+  margin-top: 9px;
+  margin-bottom: 45px;
   font-family: Roboto, sans-serif;
   font-size: 14px;
   color: #777777;
   font-weight: 500;
   letter-spacing: 0.35px;
-  margin-top: 9px;
-  margin-bottom: 45px; }
+  line-height: 30px; }
 
 .skill__item {
   display: block;
