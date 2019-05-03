@@ -1133,6 +1133,37 @@ body {
   letter-spacing: 0.35px;
   line-height: 30px; }
 
+.about__team {
+  padding-top: 95px;
+  padding-bottom: 75px; }
+
+.about__team-header {
+  display: block;
+  text-align: center; }
+
+.about__team-heading {
+  margin-top: 0;
+  margin-button: 40px;
+  font-family: Roboto, sans-serif;
+  font-size: 30px;
+  color: black;
+  font-weight: 300;
+  letter-spacing: 12px;
+  text-transform: uppercase; }
+
+.about__team-text {
+  padding-left: 275px;
+  padding-right: 275px;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  color: #777777;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.35px; }
+
+.about__team-cards {
+  margin-top: 65px; }
+
 .skill__item {
   display: block;
   padding-bottom: 25px; }
@@ -1198,3 +1229,44 @@ body {
     height: 0;
     border-top: 7px solid black;
     border-right: 7px solid transparent; }
+
+.card {
+  display: grid;
+  grid-template-columns: 356px 356px 356px;
+  grid-gap: 29px; }
+  .card__item {
+    background-color: #ffffff; }
+  .card__block {
+    padding-top: 30px;
+    padding-right: 35px;
+    padding-bottom: 25px;
+    padding-left: 35px; }
+  .card__img {
+    display: block;
+    width: 356px;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover; }
+  .card__heading {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    color: #000000;
+    font-weight: 300;
+    letter-spacing: 0.96px;
+    text-transform: uppercase; }
+  .card__position {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    color: #777777;
+    font-weight: 700;
+    letter-spacing: 0.4px; }
+  .card__text {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    color: #9c9c9c;
+    font-weight: 500;
+    line-height: 24px; }
