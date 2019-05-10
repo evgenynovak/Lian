@@ -1268,3 +1268,53 @@ body {
     color: #9c9c9c;
     font-weight: 500;
     line-height: 24px; }
+
+.info {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px; }
+  .info__title {
+    padding-bottom: 70px; }
+  .info__title-heading {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    color: #000000;
+    font-weight: 300;
+    letter-spacing: 12px;
+    text-transform: uppercase; }
+  .info__title-text {
+    position: relative;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    color: #777777;
+    font-weight: 500;
+    letter-spacing: 0.4px; }
+    .info__title-text:before {
+      position: absolute;
+      content: "";
+      height: 2px;
+      width: 60px;
+      left: 0px;
+      top: 35px;
+      background: black; }
+  .info__hours-address {
+    padding-bottom: 33px; }
+  .info__tell-fax {
+    padding-bottom: 11px; }
+  .info__text {
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    color: #777777;
+    font-weight: 500;
+    letter-spacing: 0.38px; }
+  .info__text-bold {
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 700;
+    letter-spacing: 0.38px; }
+  .info__form-input {
+    width: 358px; }
