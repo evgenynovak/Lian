@@ -1273,7 +1273,8 @@ body {
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 2fr;
-  grid-gap: 20px; }
+  grid-gap: 20px;
+  padding-bottom: 70px; }
   .info__title {
     padding-bottom: 70px; }
   .info__title-heading {
