@@ -1319,3 +1319,23 @@ body {
     letter-spacing: 0.38px; }
   .info__form-input {
     width: 358px; }
+
+.values {
+  padding-top: 50px;
+  padding-bottom: 40px; }
+  .values__cards {
+    padding-top: 50px; }
+  .values__card {
+    grid-template-columns: 354px 354px 354px;
+    grid-gap: 35px; }
+  .values__img {
+    width: 354px; }
+  .values__heading {
+    font-size: 18px;
+    letter-spacing: 7.2px;
+    line-height: 30px; }
+  .values__item {
+    background-color: #fafafa; }
+  .values__block {
+    padding-left: 0px;
+    padding-right: 10px; }
