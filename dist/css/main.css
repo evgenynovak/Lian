@@ -1232,7 +1232,9 @@ body {
   grid-template-columns: 356px 356px 356px;
   grid-gap: 29px; }
   .card__item {
-    background-color: #ffffff; }
+    background-color: transparent; }
+    .card__item_bg-white {
+      background-color: #FFFFFF; }
   .card__block {
     padding-top: 30px;
     padding-right: 35px;
