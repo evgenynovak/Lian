@@ -5,7 +5,16 @@
   grid-gap: 20px
   padding-bottom: 70px
   &__title
+    position: relative
     padding-bottom: 70px
+    &:before
+      position: absolute
+      content: ""
+      height: 2px
+      width: 60px
+      left: 0px
+      top: 85px
+      background: black
   &__title-heading
     margin-top: 0px
     margin-bottom: 10px
@@ -16,20 +25,11 @@
     letter-spacing: 12px
     text-transform: uppercase
   &__title-text
-    position: relative
     font-family: $font-default
     font-size: 16px
     color: $text-color
     font-weight: 500
     letter-spacing: 0.4px
-    &:before
-      position: absolute
-      content: ""
-      height: 2px
-      width: 60px
-      left: 0px
-      top: 35px
-      background: black
   &__hours-address
     padding-bottom: 33px
   &__tell-fax
