@@ -1,22 +1,16 @@
-$( document ).ready(function() {
+$(document).ready(function() {
   $('.owl-carousel').owlCarousel({
-    loop:true,
+    loop: true,
     dots: true,
-    margin:1,
-    nav:true,
+    margin: 1,
+    nav: true,
     navText : ["",""],
     responsive:{
         0:{
             items:1
-        },
-        600:{
-            items:1
-        },
-        1000:{
-            items:1
         }
     }
-  })
+  });
 
   $('.portfolio__list').masonry({
     itemSelector: '.portfolio__item',
