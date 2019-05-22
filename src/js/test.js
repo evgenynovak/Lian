@@ -1,4 +1,9 @@
 $(document).ready(function() {
+  $('.nav__burger').on('click', function(){
+    $('.nav__list').toggleClass('nav__list_burger');
+    $('.nav__burger-line').toggleClass('nav__burger-line_open');
+  });
+
   $('.owl-carousel').owlCarousel({
     loop: true,
     dots: true,

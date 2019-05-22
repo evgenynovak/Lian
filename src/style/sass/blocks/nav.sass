@@ -1,12 +1,69 @@
 .nav
+  position: relative
+  &__burger 
+    display: none
+    width: 45px
+    height: 35px
+    position: relative
+    cursor: pointer
+    @media (max-width: 960px)
+      display: block
+  &__burger-line
+    display: block
+    position: absolute
+    height: 5px
+    width: 100%
+    background: #333333
+    border-radius: 10px
+    opacity: 1
+    left: 0
+    transform: rotate(0deg)
+    transition: .25s ease-in-out
+    &:nth-child(1)
+      top: 5px
+    &:nth-child(2)
+      top: 15px
+    &:nth-child(3)
+      top: 15px
+    &:nth-child(4)
+      top: 25px
+    &_open
+      &:nth-child(1)
+        top: 17px
+        width: 0%
+        left: 50%
+      &:nth-child(2)
+        transform: rotate(45deg)
+      &:nth-child(3)
+        transform: rotate(-45deg)
+      &:nth-child(4)
+        top: 17px
+        width: 0%
+        left: 50%
   &__list
     display: flex
     margin: 0
     padding: 0
     list-style: none
+    @media (max-width: 960px)
+      display: none
+    &_burger
+      @media (max-width: 960px)
+        position: absolute
+        display: flex
+        flex-direction: column
+        list-style: none
+        top: 40px
+        left: -150px
+        right: 0px
+        z-index: 2
   &__item
     position: relative
     padding-left: 46px
+    @media (max-width: 960px)
+      padding-top: 5px
+      padding-bottom: 5px
+      background-color: black
   &__link 
     font-family: 'Roboto', sans-serif
     font-size: 14px
@@ -17,6 +74,12 @@
     text-decoration: none
     &:hover
       color: black
+    @media (max-width: 960px)
+      font-size: 20px
+      color: #ffffff
+      background-color: transparent
+      &:hover
+        color: $link-color
   &__link_active 
     color: $link-color-active
     &:before
@@ -27,3 +90,8 @@
       left: 17px
       top: 8px
       background: black
+    @media (max-width: 960px)
+      color: $link-color
+      &:before
+        top: 16px
+        background: $link-color
