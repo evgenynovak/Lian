@@ -13,10 +13,16 @@
     padding-left: 0px
     padding-right: 0px
     list-style: none
+    @media (max-width: 500px)
+      flex-direction: column
+      align-items: center
   &__item
     position: relative
     padding-right: 28px
     padding-left: 28px
+    @media (max-width: 500px)
+      padding-top: 10px
+      padding-bottom: 10px
   &__link
     font-family: $font-default
     font-size: 14px
@@ -29,3 +35,5 @@
       color: black
     &_active
       color: black
+    @media (max-width: 500px)
+      font-size: 30px

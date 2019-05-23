@@ -1160,10 +1160,18 @@ body {
     padding-left: 0px;
     padding-right: 0px;
     list-style: none; }
+    @media (max-width: 500px) {
+      .social__list {
+        flex-direction: column;
+        align-items: center; } }
   .social__item {
     position: relative;
     padding-right: 28px;
     padding-left: 28px; }
+    @media (max-width: 500px) {
+      .social__item {
+        padding-top: 10px;
+        padding-bottom: 10px; } }
   .social__link {
     font-family: Roboto, sans-serif;
     font-size: 14px;
@@ -1176,6 +1184,9 @@ body {
       color: black; }
     .social__link_active {
       color: black; }
+    @media (max-width: 500px) {
+      .social__link {
+        font-size: 30px; } }
 
 .copyright__text {
   font-family: Roboto, sans-serif;
