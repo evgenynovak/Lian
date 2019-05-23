@@ -1040,11 +1040,19 @@ body {
     letter-spacing: 4px;
     text-transform: uppercase; }
 
+@media (max-width: 960px) {
+  .form-comment {
+    padding-left: 50px;
+    padding-right: 50px; } }
+
 .form-comment__list {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding-bottom: 11px; }
+  @media (max-width: 960px) {
+    .form-comment__list {
+      flex-direction: column; } }
 
 .form-comment__input {
   width: 250px;
@@ -1073,6 +1081,10 @@ body {
   .form-comment__input:focus {
     border-left: 3px solid #c8c8c8;
     padding-left: 10px; }
+  @media (max-width: 960px) {
+    .form-comment__input {
+      width: 100%;
+      margin-bottom: 10px; } }
 
 .form-comment__textarea {
   width: 100%;

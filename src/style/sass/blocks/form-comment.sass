@@ -1,9 +1,14 @@
 .form-comment
+  @media (max-width: 960px)
+    padding-left: 50px
+    padding-right: 50px
   &__list
     display: flex
     flex-direction: row
     justify-content: space-between
     padding-bottom: 11px
+    @media (max-width: 960px)
+      flex-direction: column
   @mixin input-standart
     padding-left: 12px 
     border: none
@@ -27,6 +32,9 @@
     width: 250px
     height: 40px
     @include input-standart
+    @media (max-width: 960px)
+      width: 100%
+      margin-bottom: 10px
   &__textarea
     width: 100%
     padding-top: 12px
