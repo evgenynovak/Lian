@@ -3,7 +3,14 @@
   grid-template-rows: 1fr
   grid-template-columns: 1fr 2fr
   grid-gap: 20px
+  justify-content: center
   padding-bottom: 70px
+  @media (max-width: 1140px)
+    grid-template-columns: 1fr 1fr
+    padding-left: 50px
+    padding-right: 50px
+  @media (max-width: 780px)
+    grid-template-columns: 1fr
   &__title
     position: relative
     padding-bottom: 70px
@@ -46,8 +53,14 @@
     color: #000000
     font-weight: 700
     letter-spacing: 0.38px
+  &__form-list
+    @media (max-width: 1140px)
+      flex-direction: column
   &__form-input
     width: 358px
+    @media (max-width: 1140px)
+      width: 100%
+      margin-bottom: 10px
 
 
 
