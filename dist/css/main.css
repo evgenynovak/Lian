@@ -1227,6 +1227,9 @@ body {
 
 .about__block {
   padding-left: 54px; }
+  @media (max-width: 1180px) {
+    .about__block {
+      padding-right: 30px; } }
   @media (max-width: 960px) {
     .about__block {
       padding-top: 30px;
