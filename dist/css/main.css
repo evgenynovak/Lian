@@ -1235,6 +1235,9 @@ body {
       padding-top: 30px;
       padding-left: 20px;
       padding-right: 20px; } }
+  @media (max-width: 560px) {
+    .about__block {
+      padding-right: 30px; } }
 
 .about__content-heading {
   font-family: Roboto, sans-serif;
