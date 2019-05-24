@@ -562,15 +562,23 @@ body {
     display: flex;
     justify-content: center;
     margin: 0;
+    padding-left: 0px;
     padding-top: 23px;
     padding-bottom: 23px;
     list-style: none;
     border-top: 1px solid #e1e1e1;
     border-bottom: 1px solid #e1e1e1; }
+    @media (max-width: 900px) {
+      .menu__list {
+        flex-direction: column;
+        align-items: center; } }
   .menu__item {
     position: relative;
     padding-left: 24px;
     padding-right: 24px; }
+    @media (max-width: 900px) {
+      .menu__item {
+        padding-bottom: 10px; } }
     .menu__item:before {
       content: '';
       color: #e1e1e1;
@@ -582,6 +590,9 @@ body {
       width: 30px;
       -webkit-transform: rotate(20deg);
               transform: rotate(20deg); }
+      @media (max-width: 900px) {
+        .menu__item:before {
+          display: none; } }
     .menu__item:first-child::before {
       content: '';
       border: none; }
