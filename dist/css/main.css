@@ -1238,6 +1238,9 @@ body {
   @media (max-width: 560px) {
     .about__block {
       padding-right: 30px; } }
+  @media (max-width: 350px) {
+    .about__block {
+      padding-right: 40px; } }
 
 .about__content-heading {
   font-family: Roboto, sans-serif;
