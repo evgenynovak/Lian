@@ -617,6 +617,9 @@ body {
   position: relative;
   width: 360px;
   margin-bottom: 30px; }
+  @media (max-width: 370px) {
+    .portfolio__item {
+      width: 100%; } }
 
 .portfolio__link {
   display: block; }
@@ -625,7 +628,7 @@ body {
 
 .portfolio__img {
   display: block;
-  width: 360px;
+  width: 100%;
   height: auto; }
 
 .portfolio__cover {
