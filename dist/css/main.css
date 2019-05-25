@@ -1494,10 +1494,10 @@ body {
 .values {
   padding-bottom: 40px; }
   .values__card {
-    grid-template-columns: 354px 354px 354px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 354px));
     grid-gap: 35px; }
   .values__img {
-    width: 354px; }
+    width: 100%; }
   .values__heading {
     font-size: 18px;
     letter-spacing: 7.2px;
