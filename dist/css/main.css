@@ -668,8 +668,13 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between; }
+  @media (max-width: 750px) {
+    .blog {
+      flex-direction: column; } }
   .blog__main {
-    width: 760px; }
+    width: 100%; }
+  .blog__posts {
+    margin: 0 auto; }
   .blog__sidebar {
     width: 360px; }
   .blog__sidebar-search {
@@ -687,14 +692,15 @@ body {
   width: 360px;
   background-color: #ffffff;
   margin-bottom: 30px; }
+  @media (max-width: 370px) {
+    .post {
+      width: 100%; } }
   .post__img {
     display: block;
-    width: 360px;
+    width: 100%;
     height: auto;
     -o-object-fit: cover;
        object-fit: cover; }
-  .post__video {
-    width: 360px; }
   .post__block {
     display: flex;
     flex-direction: column;
